@@ -54,8 +54,28 @@ c=int(input())
 if a>b:print("a big")
 if b>a:print("b big")
 if c>b:print("c big")"""
-a=int(input())
+'''a=int(input())
 if a>=18:
     if a>=60:print("old") 
     else: print("adult") 
-else:print("minor")
+else:print("minor")'''
+'''x,y,=input("Values:").split()
+print(x)
+print(y)'''
+z="car,truck,bus,palne"
+print(z.split(",",2))
+text="My name is kushagra"
+x=text.split()
+print(x)
+number=[1,2,3,4,5]
+square=[num*num for num in number]
+print(square)
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even= [num for num in numbers if num%2==0 ]
+print(even)
+numberss = [5, 12, 8, 20, 3, 15]
+num=[num for num in numberss if num>10]
+print(num)
+words = ["apple", "banana", "cat", "elephant"]
+length=[len(word)for word in words]
+print(length)
