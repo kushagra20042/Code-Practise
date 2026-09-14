@@ -79,3 +79,24 @@ print(num)
 words = ["apple", "banana", "cat", "elephant"]
 length=[len(word)for word in words]
 print(length)
+a=10
+b=2
+c=a%b
+print(c)
+print("hello world")
+a=10
+b=20
+a,b=b,a
+print(a,b)
+a="kush"
+print(len(a))
+a="kush"
+b="kushagra"
+c=len(a)
+d=len(b)
+a="python1"
+b="python1"
+print(a and b)
+a="kushagra"
+b=a[::-1]
+print(b)
