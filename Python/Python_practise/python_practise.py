@@ -62,7 +62,7 @@ else:print("minor")'''
 '''x,y,=input("Values:").split()
 print(x)
 print(y)'''
-z="car,truck,bus,palne"
+'''z="car,truck,bus,palne"
 print(z.split(",",2))
 text="My name is kushagra"
 x=text.split()
@@ -99,4 +99,78 @@ b="python1"
 print(a and b)
 a="kushagra"
 b=a[::-1]
+print(b)'''
+'''x=10
+x=20
+print(x)
+name='kushagra'
+age=20
+city="kanpur"
+print(name)
+print(age)
+print(city)'''
+'''print(10/3)
+print(10//3)
+a=10
+b=3
+print("addition",a+b)
+print("substraction",a-b)
+print("multiply",a*b)
+print("exponential",a%b)
+
+a=10
+b=a
+if a%2==0:
+    print("even")
 print(b)
+
+a=10
+if a>10:
+    print("greater than 10")
+else:
+    print("AND less than 50")'''
+'''a=int(input("Enter a Number:"))
+if a>10:
+    print("number is greater than 10")
+a=int(input("Enter temperature:"))
+if a>30:
+    print("HOT")'''
+'''a=int(input("Enter a number:"))
+if a%2==0:
+    print("The number is even")
+else:
+    print("the number is odd")'''
+'''a=int(input("Enter user age"))
+if a>=18:
+    print("User is adult")
+else:
+    print("user is minor")
+a=int(input("Enter a number"))
+if a>0:
+    print("number is positve")
+else:
+    print("number is negative")'''
+'''a=int(input("Entera number"))
+if a>0:
+    print("positive")
+elif a<0:
+    print("Negative")
+else:
+    print("zero")'''
+a=int(input("Enter a number"))
+if a==1:
+    print("Monday")
+elif a==2:
+    print("tuesday")
+elif a==3:
+    print("wednesday")
+elif a==4:
+    print("thursday")
+elif a==5:
+    print("friday")
+elif a==6:
+    print("saturday")
+elif a==7:
+    print("sunday")
+else:
+    print("invalid")
