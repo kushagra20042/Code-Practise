@@ -157,7 +157,7 @@ elif a<0:
     print("Negative")
 else:
     print("zero")'''
-a=int(input("Enter a number"))
+'''a=int(input("Enter a number"))
 if a==1:
     print("Monday")
 elif a==2:
@@ -173,4 +173,80 @@ elif a==6:
 elif a==7:
     print("sunday")
 else:
-    print("invalid")
+    print("invalid")'''
+'''a=int(input("enter a number"))
+if a>50:
+    print("number is greater than 50")'''
+'''a=int(input("Enter a number"))
+if a%2==0:
+    print("a is even")
+else:
+    print("odd")'''
+'''a=int(input("Enter a number: "))
+if a>=90:
+    print(" b grade")
+elif a>=75 and a<=89:
+    print(" c grade")
+elif a>=60 and a<=74:
+    print(" c grade")
+elif a>=40 and a<=59:
+    print(" d grade")
+else:
+    print(" fail ")'''
+'''a=int(input("Enter age: "))
+if a>=18:
+    print("eligible to vote")
+else:
+    print("Not eligible to vote")'''
+'''a=int(input("Enter a number: "))
+if a==1:
+    print("Monday")
+elif a==2:
+    print("Tuesday")
+elif a==3:
+    print("Wednesday")
+elif a==4:
+    print("Thursday")
+elif a==5:
+    print("Friday")
+elif a==6:
+    print("Saturday")
+elif a==7:
+    print("Sunday")'''
+a=["kush","for","kush"]
+'''for i in a:
+    print(i)
+for i in range(0,20,4):
+    print(i,end=" ")'''
+'''for i in range(0,10):
+    print(i,end=" ")
+    if i==7:
+        break'''
+'''count=0
+while count<5:
+    count=count+1
+    print(count,end="\n")'''
+'''for i in range(0,10):
+    print(i)
+a=int(input("enter a number:"))
+for i in range(0,a):
+    print(i)
+for i in range(0,20):
+    print(i%2==0,)'''
+'''for i in 'Kushagra':
+    if i == 'g' or i == 's':
+        continue
+    print(i)'''
+'''i=1
+while i<=5:
+    if i==4:
+        break
+    print(i)
+    i+=1'''
+'''b=["eat","sleep","repeat"]
+for i,j in enumerate(b):
+    print(i,j)'''
+count=0
+while count <4:
+    count= count+1
+    print("hello")
